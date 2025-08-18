@@ -6,7 +6,6 @@
     <title>SignUp</title>
 </head>
 <body>
-    <label>Signup</label>
     <h2>Signup</h2>
     <label>Please fill out the form in order to complete the sign up process.</label>
     <fieldset>
@@ -21,13 +20,19 @@
             <input type="tel" placeholder="+91 xxxxxxx"/><br><br>
             <label>Date</label><br>
             <input type="date"/><br><br>
-            <label>Select your Gender:</label>
-            <select>
-                <input type="radio"><label>Male</label><br>
-                <input type="radio"><label>Female</label><br>
-                <input type="radio"><label>Other</label><br>
-            </select>
+            <label>Select your Gender:</label><br>
+                <input type="radio" name="genderGroup"><label>Male</label><br>
+                <input type="radio" name="genderGroup"><label>Female</label><br>
+                <input type="radio" name="genderGroup"><label>Other</label><br><br>
+                <label>Address</label><br>
+                <input placeholder="Add your Address here"/><br><br>
+                <label>Choose your password</label><br>
+                <input type="password"/><br><br>
+                <label>confirm password</label><br>
+                <input type="password"/><br><br>
+                <input type="submit" value="SignUp"/>
         </form>
+        <a href="Signin.html">Already have an account? Sing In </a>
     </fieldset>
 </body>
 </html>
