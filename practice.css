@@ -26,6 +26,7 @@ table.tagp{
 h2, h3 ,address{
     text-align: center;
     color: cadetblue;
+    font-family: verdana;
 }
 
 #testStylingMultipleProps{
