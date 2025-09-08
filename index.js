@@ -405,11 +405,101 @@ console.log("hello")
 // console.log(BigInt(NaN))
 
 //implicit conversions (automatically doing)
-const str1= 42 + "1"
-console.log(str1)
-console.log(typeof str1)
-const str2 = 42 -"1"
-console.log(str2)
-console.log(typeof str2)
+// const str1= 42 + "1"
+// console.log(str1)
+// console.log(typeof str1)
+// const str2 = 42 -"1"
+// console.log(str2)
+// console.log(typeof str2)
+
+// 8/9 / 25
+//complex data type - object 
+
+// let testObj = {}
+// console.log("testObj :", testObj)
+// console.log(typeof testObj)
+
+// let testObj = {
+//     nr : 600,
+//     str:" My text"
+// }
+// console.log("testObj :", testObj)
+// console.log(typeof testObj)
+// console.log("nr :", testObj.nr)
+// console.log("str :", testObj.str)
+
+//multipuledata like students data 
+// let student_anjali = {
+//     name: "Anjali",
+//     couurse : "React",
+//     contact: "98765421",
+//     email:"asdg@23gmail.com"
+// }
+// let student_diksha = {
+//     name: "Diksha",
+//     couurse : "Node",
+//     contact: "987429761",
+//     email:"dhjakg@23gmail.com"
+// }
+// console.log("Name:", student_anjali.name)
+// console.log("course:", student_anjali.couurse)
+// console.log("contact:", student_anjali.contact)
+// console.log("Email:", student_anjali.email)
+
+// console.log("Name:", student_diksha.name)
+// console.log("course:", student_diksha.couurse)
+// console.log("contact:", student_diksha.contact)
+// console.log("Email:", student_diksha.email)
+
+// student_anjali.contact = 9876452938
+// student_anjali.email = "anj@998.gmail.com"
+// console.log("Name:", student_anjali.name)
+// console.log("course:", student_anjali.couurse)
+// console.log("contact:", student_anjali.contact)
+// console.log("Email:", student_anjali.email)
+
+//ad  more option like
+// student_anjali.age = 20
+// console.log("Anjali's age",student_anjali.age)
+
+// console.log("Anjali's age",student_diksha.age)
+
+//Arrays
+//consecutive -- mean 11,12,13,14 like this type(consecutive memoey location)
+//inizer store 2 byte data so that why 0,2,4,6.... [10,20,30,40....]
+//index's - a[0], a[1], a[2]
+//a[0] => address of a + (0*2) => 10
+//a[1] => address of a +1 (*2)  => 20
+//a[2] => address of a+ 2 (*2) => 30
+
+//complex data type - Arrays
+
+let days = ["Sun", "Mon", "Tue", "Web","Thu", "Fri", "Sat"]
+console.log(days[0])
+console.log(days[2])
+console.log(days[5])
+days[0] = "Sunday"
+console.log(days[0])
+let emptyArray = []
+console.log(emptyArray[0])
+// new element add in array 
+let animals = []
+console.log(animals[0])
+animals[0] ="dog"
+animals[2] = "cat"
+console.log(animals[0])
+console.log(animals[1])
+console.log(animals[2])
+
+//multipule data type in array 
+let value = ["test", 7 , 12.3 ,false]//this show type of object
+console.log(typeof value)
+console.log(value[0])
+console.log(value[1])
+console.log(value[2])
+console.log(value[3])
+
+
+
 
 
