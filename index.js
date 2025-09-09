@@ -474,32 +474,115 @@ console.log("hello")
 
 //complex data type - Arrays
 
-let days = ["Sun", "Mon", "Tue", "Web","Thu", "Fri", "Sat"]
-console.log(days[0])
-console.log(days[2])
-console.log(days[5])
-days[0] = "Sunday"
-console.log(days[0])
-let emptyArray = []
-console.log(emptyArray[0])
-// new element add in array 
-let animals = []
-console.log(animals[0])
-animals[0] ="dog"
-animals[2] = "cat"
-console.log(animals[0])
-console.log(animals[1])
-console.log(animals[2])
+// let days = ["Sun", "Mon", "Tue", "Web","Thu", "Fri", "Sat"]
+// console.log(days[0])
+// console.log(days[2])
+// console.log(days[5])
+// days[0] = "Sunday"
+// console.log(days[0])
+// let emptyArray = []
+// console.log(emptyArray[0])
+// // new element add in array 
+// let animals = []
+// console.log(animals[0])
+// animals[0] ="dog"
+// animals[2] = "cat"
+// console.log(animals[0])
+// console.log(animals[1])
+// console.log(animals[2])
 
-//multipule data type in array 
-let value = ["test", 7 , 12.3 ,false]//this show type of object
-console.log(typeof value)
-console.log(value[0])
-console.log(value[1])
-console.log(value[2])
-console.log(value[3])
+// //multipule data type in array 
+// let value = ["test", 7 , 12.3 ,false]//this show type of object
+// console.log(typeof value)
+// console.log(value[0])
+// console.log(value[1])
+// console.log(value[2])
+// console.log(value[3])
+
+//9/9/25
+//array in array
+// let names =[["Olivia", "Emma" , "Mia", "Sofia"],["william", "james", "daniel"]]
+// console.log("names:", names)
+// let myArray = names [0]
+// console.log(names[0])
+// console.log(names[1])
+// console.log(names[0][3])
+// console.log(names[1][2])
+
+// let user1 = {
+//     name: "Anjali",
+//     surname : "sharma",
+//     age : 12,
+//     email: "anj234gmail.com"
+// }
+// let user2={
+//     name: "abhi",
+//     surname : "sharma",
+//     age : 18,
+//     email: "abvh@4tgamil.com"
+// }
+
+// let objArray = [user1, user2]
+// console.log(objArray)
+// console.log(objArray[1])
+// console.log(objArray[1].surname)
 
 
+// objArray[2]= {
+//     name: "shan",
+//     surname : "Dwivedi",
+//     age : 25,
+//     email: "shan65@gamil.com"
+// }
+// console.log(objArray)
+// console.log(objArray[2].name)
 
+//instance of oprater(it is do false and true )
+// let days = ["Sun", "Mon", "Tue", "Web","Thu", "Fri", "Sat"]
+// let day = "Sunday"
+// console.log(typeof days)
+// console.log(typeof day)
+// console.log(days instanceof Array)
+// console.log(day instanceof Array)
 
+// console.log( "days length : ",days.length)
+// // console.log("objArray length:", objArray.length)
+
+// days[7] = "someday"
+// console.log( "days length : ",days.length)
+
+// //indexof method
+// console.log("index of wednesday: ", days.indexOf("wed"))
+// console.log("index of wednesday:", days.indexOf("wednesday"))
+
+//push method (add new )
+// let names = ["anjali", "abhi", "radha", "shan"]
+// console.log(names.length)
+// names.push("raj")
+// console.log(names.length)
+// console.log(names)
+
+//unshift method
+// let names = ["anjali", "shan", "raj", "abhi"]
+// console.log(names.indexOf("raj"))
+// console.log(names.indexOf("jan"))
+
+// names.unshift("jan")
+// console.log(names.indexOf ("jan"))
+// console.log(names)
+
+//pop method(remover last index in array)
+let names = ["anjali", "shan", "raj", "abhi"]
+// console.log(names.length)
+// let name = names.pop()
+// console.log(names.length)
+// console.log(name)
+// console.log(names)
+
+//shift method
+console.log(names.length)
+ name = names.shift()
+console.log(names.length)
+console.log(name)
+console.log(names)
 
