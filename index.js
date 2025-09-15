@@ -572,7 +572,7 @@ console.log("hello")
 // console.log(names)
 
 //pop method(remover last index in array)
-let names = ["anjali", "shan", "raj", "abhi"]
+// let names = ["anjali", "shan", "raj", "abhi"]
 // console.log(names.length)
 // let name = names.pop()
 // console.log(names.length)
@@ -580,9 +580,44 @@ let names = ["anjali", "shan", "raj", "abhi"]
 // console.log(names)
 
 //shift method
-console.log(names.length)
- name = names.shift()
-console.log(names.length)
-console.log(name)
-console.log(names)
+// console.log(names.length)
+//  name = names.shift()
+// console.log(names.length)
+// console.log(name)
+// console.log(names)
+
+//15/9/25
+//reverse methode (interview quetions how to do reverse methoode and we say use preddefined methode)
+// let name = ["anjali", "abhi", "radha", "shan"]
+// console.log(name)
+// name.reverse()
+// console.log(name)
+
+//slice method 
+let name = [ "anjali" , "abhi", "radha", "shan"]
+// let n1 = name.slice(2)
+// console.log(n1)
+// let n2 = name.slice(1,3)
+// console.log(n2)
+// let n3 = name.slice(0,-1)
+// console.log(n3)
+// let n4 = name.slice(-1)
+// console.log(n4)
+// let n5 = name.slice(-2)
+// console.log(n5)
+// console.log(name)
+
+//concat method
+ let name1 =  ["raj","ram", "diksha", "jon"]
+//  name = name.concat(name1)
+name1 =name1.concat(name)
+ console.log(name1)
+
+ //
+
+
+
+
+
+
 
