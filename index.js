@@ -594,7 +594,7 @@ console.log("hello")
 // console.log(name)
 
 //slice method 
-let name = [ "anjali" , "abhi", "radha", "shan"]
+// let name = [ "anjali" , "abhi", "radha", "shan"]
 // let n1 = name.slice(2)
 // console.log(n1)
 // let n2 = name.slice(1,3)
@@ -608,16 +608,84 @@ let name = [ "anjali" , "abhi", "radha", "shan"]
 // console.log(name)
 
 //concat method
- let name1 =  ["raj","ram", "diksha", "jon"]
-//  name = name.concat(name1)
-name1 =name1.concat(name)
- console.log(name1)
+//  let name1 =  ["raj","ram", "diksha", "jon"]
+// //  name = name.concat(name1)
+// name1 =name1.concat(name)
+//  console.log(name1)
 
- //
+//16/9/25
+//operators(assigment operator)
+//  let year  = 2050
+//  let newYear = year = 2051
+//  console.log("year:", year)
+//  console.log("newYear", newYear) 
 
+//Arithmetic opretor
+// console.log(2+ 2*2)
+// console.log(2+(2*2))
+// console.log((2+2) *2)
 
+// const x = 5
+//  const y = 2 
+//  console.log("addition;" , x+y)
+//  console.log("subtraction:", x-y)
+//  console.log("multipliction:", x*y)
+//  console.log("division:", x/y)
+//  console.log("division remainder:", x%y)
+//  console.log("exponent:", x**y)//** */ its mean squar
 
+//Unary Arrithmetic operatore
+// let str = "123"
+// let n1 = +str
+// let n2 = -str
+// let n3 = -n2 
+// let n4 = +"abcd"
 
+// console.log(`${str} : ${typeof str}`)
+// console.log(`${n1} : ${typeof n1}`)
+// console.log(`${n2} : ${typeof n2}`)
+// console.log(`${n3} : ${typeof n3}`)
+// console.log(`${n4} : ${typeof n4}`)
 
+//unary increment and decrement opretors
+// let a = 10
+// console.log("a:", a)
+// console.log("a++", a++)
+// console.log("a:", a)
+// console.log("++a", ++a)
 
+// console.log("a:", a)
+// console.log("a--", a--)//postfix
+// console.log("a:", a)
+// console.log("--a", --a)//prefix
 
+// console.log(0.2 +0.1)
+// console.log(0.2 * 0.1)
+// console.log(0.3 /0.1)
+
+//compound assigment operater
+//exmaple (x= x+100)(x=x-10)
+// let x = 10
+// x +=2
+// console.log(x)
+// x-=4
+// console.log(x)
+// x *=3
+// console.log(x)
+// x/=6
+// console.log(x)
+// x %= 10
+// console.log(x)
+
+//logical operatore
+//And Operator
+console.log(true && true)
+console.log(true && false)
+console.log(false && true)
+console.log(false && false)
+
+//or
+console.log(true || true)
+console.log(true || false)
+console.log(false|| true)
+console.log(false || false)
