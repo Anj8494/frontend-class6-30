@@ -679,13 +679,96 @@ console.log("hello")
 
 //logical operatore
 //And Operator
-console.log(true && true)
-console.log(true && false)
-console.log(false && true)
-console.log(false && false)
+// console.log(true && true)
+// console.log(true && false)
+// console.log(false && true)
+// console.log(false && false)
 
+// //or
+// console.log(true || true)
+// console.log(true || false)
+// console.log(false|| true)
+// console.log(false || false)
+
+// const a = false
+// const b= true
+// const c = false
+// const d= true
+// console.log(a&& b&&c ||d)
+// console.log(a &&b ||c ||d)
+
+//17/9/25
+//logical oparetor and non boolean values 
+// let nr =0
+// let year = 1970
+// let name= "Anjali"
+// let empty= ""
+
+// console.log(!nr)
+// console.log(!year)
+// console.log(!name)
+// console.log(!empty)
+// console.log(!!nr)
+// console.log(!!name)//if we want to boolean value so we use !! )
+
+//And or 
+// console.log(true && 1991)
+// console.log(false && 1991)
+// console.log(2 && 5)
+// console.log(0 && 5)
+// console.log("Anjali" && "anj")
+// console.log("" && "anj")
+// console.log(true || 1991)
+// console.log(false| 1991)
+// console.log(2 || 5)
+// console.log(0 || 5)
+// console.log("Anjali" || "anj")
+// console.log("" || "anj")
+
+//short circuit evaluatuion 
+// let x =0
+// let y =0
+// console.log(x++ && y++)
+// console.log(x)
+// console.log(y)
+// console.log("-----------------")
+//  x =1
+//  y =0
+// console.log(x++ && y++)
+// console.log(x)
+// console.log(y)
 //or
-console.log(true || true)
-console.log(true || false)
-console.log(false|| true)
-console.log(false || false)
+// let x =0
+// let y =0
+// console.log(x++ || y++)
+// console.log(x)
+// console.log(y)
+// console.log("-----------------")
+//  x =1
+//  y =0
+// console.log(x++ || y++)
+// console.log(x)
+// console.log(y)
+
+//compound Asssgiment operators
+// let a = true
+// a &&= false // a = a&& false
+// console.log(a) 
+
+// let b = false
+// console.log(b)
+// b ||= true // b= b|| true
+// console.log(b) 
+
+//string operator
+// let greetings = "hi"
+// console.log(greetings + " "+ "nj")
+// let sentence = "happy new year"
+// let newSentence = sentence + 10191
+// console.log(newSentence)
+// console.log(typeof newSentence)
+
+let sentence = "happy new"
+sentence += "year"
+sentence += 10191
+console.log(sentence)
