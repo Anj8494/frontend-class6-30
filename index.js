@@ -768,7 +768,85 @@ console.log("hello")
 // console.log(newSentence)
 // console.log(typeof newSentence)
 
-let sentence = "happy new"
-sentence += "year"
-sentence += 10191
-console.log(sentence)
+// let sentence = "happy new"
+// sentence += "year"
+// sentence += 10191
+// console.log(sentence)
+
+//18/9/25
+//comparision operators
+//=== its check val;ue and dat a type alsoo smae, == is compare 
+// console.log(10 === 5)
+// console.log(10 ===10)
+// console.log (10  === 10n)
+// console.log(10 ==="10")
+// console.log("10" === "10") 
+// console.log("anjali" === "nj")
+// console.log(0 === false)
+// console.log(undefined === false)
+
+// console.log(10 == 5)
+// console.log(10 == 10)
+// console.log (10  == 10n)
+// console.log(10 =="10")
+// console.log("10" == "10") 
+// console.log("anjali" == "nj")
+// console.log(0 == false)
+// console.log(undefined == false)
+// console.log(NaN == NaN)// nan value to convert in  undefined ,nan so value gave flase 
+//check type and value not same inquality value 
+// console.log(10 !== 5)
+// console.log(10 !== 10)
+// console.log (10  !== 10n)
+// console.log(10 !=="10")
+// console.log("10" !== "10") 
+// console.log("anjali" !== "nj")
+// console.log(0 !== false)
+// console.log(undefined !== false)
+
+// console.log(10 != 5)
+// console.log(10 != 10)
+// console.log (10  != 10n)
+// console.log(10 !="10")
+// console.log("10" != "10") 
+// console.log("anjali" != "nj")
+// console.log(0 != false)
+// console.log(undefined != false)
+// console.log(NaN != NaN)
+
+// < > and also use this , >grether then  ,<small then , 
+// console.log(10 > 100)
+// console.log(101 > 100)
+// console.log(101 > "100")
+// console.log(101 < 100)
+// console.log(100n <102)
+// console.log("10" < 20n)
+// console.log(101 <= 100)
+// console.log(10 >= 10n)
+// console.log("10" <= 20)
+
+//asiic value a=  to z - A =65 Z=90
+// console.log("b" > "a")
+// console.log("a" > "B")
+// console.log( "B" > "A")
+// console.log("A" > "4")
+// console.log("4" >"1")
+// console.log("ab1" <"ab4")
+// console.log("ab4" < "abA")
+// console.log("abB" < "aba")
+// console.log("aba" < "abb")
+// console.log("ab" < "ab4")
+
+// instance of 
+let names = ["anjali", "nj"]
+let name = names[0] 
+console.log(names instanceof Array)
+console.log(name instanceof Array)
+
+//delete opretore 
+//ternary oprater 
+console.log(true ? "anjali" : "nj")
+console.log(false ? "anjali" : "nj")
+
+console.log(1<10 ? "anjali" : "nj")
+console.log(1>10 ? "anjali" : "nj")
