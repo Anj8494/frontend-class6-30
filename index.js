@@ -838,15 +838,18 @@ console.log("hello")
 // console.log("ab" < "ab4")
 
 // instance of 
-let names = ["anjali", "nj"]
-let name = names[0] 
-console.log(names instanceof Array)
-console.log(name instanceof Array)
+// let names = ["anjali", "nj"]
+// let name = names[0] 
+// console.log(names instanceof Array)
+// console.log(name instanceof Array)
 
-//delete opretore 
-//ternary oprater 
-console.log(true ? "anjali" : "nj")
-console.log(false ? "anjali" : "nj")
+// //delete opretore 
+// //ternary oprater 
+// console.log(true ? "anjali" : "nj")
+// console.log(false ? "anjali" : "nj")
 
-console.log(1<10 ? "anjali" : "nj")
-console.log(1>10 ? "anjali" : "nj")
+// console.log(1<10 ? "anjali" : "nj")
+// console.log(1>10 ? "anjali" : "nj")
+
+//23/9/25
+//
