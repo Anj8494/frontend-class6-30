@@ -251,13 +251,77 @@ console.log("this is my page")
 // }
 
 //let user enter marks for 5 subject , calculate practentage of all marks and show hte % 
-let sub1= prompt("enter mark for sub 1")
-let sub2= prompt("enter mark for sub 2")
-let sub3= prompt("enter mark for sub 3")
-let sub4= prompt("enter mark for sub 4")
-let sub5= prompt("enter mark for sub 5")
+// let sub1= prompt("enter mark for sub 1")
+// let sub2= prompt("enter mark for sub 2")
+// let sub3= prompt("enter mark for sub 3")
+// let sub4= prompt("enter mark for sub 4")
+// let sub5= prompt("enter mark for sub 5")
 
-let totalMarks= sub1 + sub2 + sub3 + sub4 + sub5
-let maxMark= 5*100
-let percentage= (totalMarks/maxMark) *100
-alert("percentag :" ,percentage)
+// let totalMarks= sub1 + sub2 + sub3 + sub4 + sub5
+// let maxMark= 5*100
+// let percentage= (totalMarks/maxMark) *100
+// alert("percentag :" ,percentage)
+
+// 1-10-25
+//conditional opretor
+// let price = 48
+// let shippingCost = price > 50 ? 0 :5
+// console.log(`price = ${price}, shipping = ${shippingCost}`)
+
+// let start =confirm("start")
+// start ? alert("here we go") : alert("aborted")
+
+// let start =confirm("Start")
+// let message = start ? "here we go" : "aborted"
+// alert(message)
+
+// let age = 20 
+// let message = (age >=80) ? "you are an adult" : "you are a minor"
+// console.log("checking age",message)
+
+// let number = 7
+// let result = (number % 2 ===0) ? "even" : "odd"
+// console.log("checking number is even or odd", result)
+
+// let isLoggedIn = true 
+// let welcomMessage = isLoggedIn ? "welcome back" : " please log in"
+// console.log("login check", welcomMessage)
+
+// let score = 85 
+// let grade = (score >= 90) ? "A" : (score >= 80) ?"B" : (score >= 70) ? "C" : (score >=60) ? "D" :"F"
+// console.log("grade:" ,grade)
+
+// switch case 
+let gate = prompt("choose gate : a,b,c,d")
+let win = false
+switch (gate)
+{
+    case "a":
+        alert("gate a : empty")
+        break
+    case "b":
+        alert("gate b : main prize")
+        win = true
+        break
+    case "c":
+        alert("gate c is empty")
+        break;
+    default:
+        alert("no gate" + String(gate))
+}
+if(win)
+{
+    alert("winner")
+}
+
+
+
+
+
+
+
+
+
+
+
+
