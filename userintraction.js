@@ -292,36 +292,86 @@ console.log("this is my page")
 // console.log("grade:" ,grade)
 
 // switch case 
-let gate = prompt("choose gate : a,b,c,d")
-let win = false
-switch (gate)
+// let gate = prompt("choose gate : a,b,c,d")
+// let win = false
+// switch (gate)
+// {
+//     case "a":
+//         alert("gate a : empty")
+//         break
+//     case "b":
+//         alert("gate b : main prize")
+//         win = true
+//         break
+//     case "c":
+//         alert("gate c is empty")
+//         break;
+//     default:
+//         alert("no gate" + String(gate))
+// }
+// if(win)
+// {
+//     alert("winner")
+// }
+ 
+
+// 7/10/25
+//loops
+//while loop
+// let n =0
+// while(n< 91)
+// {
+//     console.log(n)
+//     n += 10
+// }
+
+// let isOver = false
+// let counter = 1
+// while(isOver != true)
+// {
+//     let continueLoop = confirm(`[${counter}] Contiue the loop??`)
+//     isOver = continueLoop === true ? false :true
+//     counter = counter+1
+// }
+// alert("COmpleted the loop")
+
+// let isOver = false 
+//  let counter = 1
+//  while(!isOver)
+//  {
+//     isOver = !confirm(`[${counter++}] Contiue the loop`)
+//  }
+// alert("completed the loop")
+
+// let fruits = ["apple", "banana", "mango", "grapes", "orange"]
+// let index = 0
+// while(index< fruits.length)
+// {
+//     console.log(fruits[index])
+//     index ++;
+// }
+
+// let fruits = ["apple", "banana", "mango", "grapes", "orange"]
+// let index = 0
+// let myLine= ""
+// while(index< fruits.length)
+// {
+//     console.log(fruits[index])
+//     myLine += fruits[index]+" "
+//     index ++;
+// }
+// console.log(fruits.join(" "))
+let fruits = ["apple", "banana", "mango", "grapes", "orange"]
+let index = 0
+let myLine= ""
+while(index< fruits.length)
 {
-    case "a":
-        alert("gate a : empty")
-        break
-    case "b":
-        alert("gate b : main prize")
-        win = true
-        break
-    case "c":
-        alert("gate c is empty")
-        break;
-    default:
-        alert("no gate" + String(gate))
+    // console.log(fruits[index])
+    // myLine += fruits[index]+" "
+    document.write(fruits[index]+ " ")
+    index ++;
 }
-if(win)
-{
-    alert("winner")
-}
-
-
-
-
-
-
-
-
-
+// console.log(fruits.join(" "))
 
 
 
