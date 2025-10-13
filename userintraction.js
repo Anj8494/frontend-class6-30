@@ -361,17 +361,111 @@ console.log("this is my page")
 //     index ++;
 // }
 // console.log(fruits.join(" "))
-let fruits = ["apple", "banana", "mango", "grapes", "orange"]
-let index = 0
-let myLine= ""
-while(index< fruits.length)
-{
-    // console.log(fruits[index])
-    // myLine += fruits[index]+" "
-    document.write(fruits[index]+ " ")
-    index ++;
-}
+// let fruits = ["apple", "banana", "mango", "grapes", "orange"]
+// let index = 0
+// let myLine= ""
+// while(index< fruits.length)
+// {
+//     // console.log(fruits[index])
+//     // myLine += fruits[index]+" "
+//     document.write(fruits[index]+ " ")
+//     index ++;
+// }
 // console.log(fruits.join(" "))
 
+//13/10/25
+//for in 
+// let user =
+//  {
+//     name: "nj",
+//      age : 25
+// }
+// for(let key in user)
+// {
+//     console.log(`${key}: ${user[key]}`);
+// }
+
+// const array1 =["a", "b", "c","d"]
+// for(const element of array1)
+// {
+//     console.log(element)
+// }
+
+//braek and countinue
+// let i =0 
+// while(true)
+// {
+//     console.log(i)
+//     i++
+//     console.log("....")
+//     if(i >= 5)
+//     {
+//         console.log("now breaking")
+//         break
+//         console.log("breaked now")
+//     }
+// }
+// console.log('exited the loop with break')
 
 
+// for (let i=0; i< 10; i++)
+// {
+//     if (i == 3)
+//     {
+//         continue
+//     }
+//     console.log("i: ", i)
+// }
+ 
+// let fruits = ["apple", "banana","mango", "orange", "graps"]
+// for(let i = 0 ; i< fruits.length ; i++)
+// {
+//     if (fruits[i] === "mango")
+//     {
+//         console.log("mango found at index" + i) 
+//         break
+//     }
+//     console.log("fruit: ", fruits[i])
+// }
+// console.log("outside the loop")
+
+// for (let i = 1; i <= 10; i++)
+// {
+//     if(i % 2 !==0 )
+//     {
+//         continue
+//     }
+//     console.log("i:",i)
+// }
+
+let gate  =prompt("choose gate : a,b,or c")
+let win = false
+switch(gate)
+{
+    case 1:
+    case "1":
+    case "A":
+    case "a":
+        alert("gate A : empty")
+        break
+
+    case 2:
+    case "2":
+    case "B":
+    case "b":
+        alert("gate B : win prize")
+        break
+    case 3:
+    case "3":
+    case "C":
+    case "c":
+        alert("gate c : empty")
+        break
+
+    default:
+        alert("no gate "+ String(gate))
+}
+if(win)
+{
+    alert(" winner")
+}
