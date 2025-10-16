@@ -1,29 +1,29 @@
-console.log("this is my page")
-        function helloWorld()
-        {
-            console.log("hello world")
-        }
+// console.log("this is my page")
+//         function helloWorld()
+//         {
+//             console.log("hello world")
+//         }
 
-        function confirmDialog()
-        {
-            let descision = window.confirm("is it ok")
-            console.log(descision)
-        }
-        function confirmDialog1()
-        {
-            let remove = confirm("Remove all data")
-            let message = remove ? "delete data" : "canceled"
-            console.log(message)
-        }
+//         function confirmDialog()
+//         {
+//             let descision = window.confirm("is it ok")
+//             console.log(descision)
+//         }
+//         function confirmDialog1()
+//         {
+//             let remove = confirm("Remove all data")
+//             let message = remove ? "delete data" : "canceled"
+//             console.log(message)
+//         }
 
-        //promte dailogbox
-        function promteDailogExample()
-        {
-            let name = window.prompt("what is your name","Anjali")
-            name = name ? name : "anonymous"
-            let age =prompt("hello"+ name + "how old are you")
-            alert(name + " is " + age + "years old")
-        }
+//         //promte dailogbox
+//         function promteDailogExample()
+//         {
+//             let name = window.prompt("what is your name","Anjali")
+//             name = name ? name : "anonymous"
+//             let age =prompt("hello"+ name + "how old are you")
+//             alert(name + " is " + age + "years old")
+//         }
 
         // 25/9/25 
         //control flow  (if)
@@ -438,34 +438,129 @@ console.log("this is my page")
 //     console.log("i:",i)
 // }
 
-let gate  =prompt("choose gate : a,b,or c")
-let win = false
-switch(gate)
-{
-    case 1:
-    case "1":
-    case "A":
-    case "a":
-        alert("gate A : empty")
-        break
+// let gate  =prompt("choose gate : a,b,or c")
+// let win = false
+// switch(gate)
+// {
+//     case 1:
+//     case "1":
+//     case "A":
+//     case "a":
+//         alert("gate A : empty")
+//         break
 
-    case 2:
-    case "2":
-    case "B":
-    case "b":
-        alert("gate B : win prize")
-        break
-    case 3:
-    case "3":
-    case "C":
-    case "c":
-        alert("gate c : empty")
-        break
+//     case 2:
+//     case "2":
+//     case "B":
+//     case "b":
+//         alert("gate B : win prize")
+//         break
+//     case 3:
+//     case "3":
+//     case "C":
+//     case "c":
+//         alert("gate c : empty")
+//         break
 
-    default:
-        alert("no gate "+ String(gate))
-}
-if(win)
+//     default:
+//         alert("no gate "+ String(gate))
+// }
+// if(win)
+// {
+//     alert(" winner")
+// }
+
+//16/10/25
+//functions
+//hoisting
+// showName()
+// function showName()
+// {
+//     console.log(name)
+// }
+// // let name = "nj"
+// var name = "nj"
+
+//calling function 
+// let name ="nj"
+// function showName()
+// {
+//     console.log(name)
+// }
+// showName()
+// function sayHello()
+// {
+//     console.log("hello , nj")
+// }
+// console.log("about to call function")
+// sayHello()
+// console.log("function call finished")
+// function showMessage()
+// {
+//     alert("hello everyone")
+// }
+// showMessage()
+// let userName = "nj"
+// function showMessage()
+// {
+//     let message = 'hello, '+userName;
+//     console.log("message:", message)
+// }
+// showMessage()
+// // console.log("message:", message)
+// console.log("userName:", userName)
+
+// function showMsg()
+// {
+//     console.log("msg 2")
+//     return
+//     console.log("msg 3")
+// }
+// console.log("msg 1")
+// showMsg()
+// console.log("msg 4")
+
+// function getTrue()
+// {
+//     return true
+// }
+// let test =getTrue()
+// console.log(test)
+// if(test)
+// {
+//     console.log("yay!!!!!")
+// }
+// else{
+//     console.log("oh no !!!!!!")
+// }
+
+let tempratures;
+let sum;
+let meantemp;
+tempratures =[12,11,13,14,11,10,9,25,21,26,23,15,34]
+console.log("mean temp :", getMenTemp(tempratures))
+console.log("-----------------------")
+tempratures=[17,18,19,18,10,12,18,17,15,14,13]
+meantemp = getMenTemp(tempratures)
+console.log("mean temp ", meantemp)
+
+// function getMenTemp(tempratures)
+// {
+//     sum = 0;
+//     for(let i = 0; i<tempratures.length ; i++)
+//     {
+//         sum += tempratures[i]
+//     }
+//     meantemp = sum / tempratures.length
+//     return meantemp
+// }
+
+function getMenTemp(tempratures)
 {
-    alert(" winner")
+    sum = 0;
+    for(let i = 0; i<tempratures.length ; i++)
+    {
+        sum += tempratures[i]
+    }
+    return sum / tempratures.length
 }
