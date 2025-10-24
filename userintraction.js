@@ -534,15 +534,15 @@
 //     console.log("oh no !!!!!!")
 // }
 
-let tempratures;
-let sum;
-let meantemp;
-tempratures =[12,11,13,14,11,10,9,25,21,26,23,15,34]
-console.log("mean temp :", getMenTemp(tempratures))
-console.log("-----------------------")
-tempratures=[17,18,19,18,10,12,18,17,15,14,13]
-meantemp = getMenTemp(tempratures)
-console.log("mean temp ", meantemp)
+// let tempratures;
+// let sum;
+// let meantemp;
+// tempratures =[12,11,13,14,11,10,9,25,21,26,23,15,34]
+// console.log("mean temp :", getMenTemp(tempratures))
+// console.log("-----------------------")
+// tempratures=[17,18,19,18,10,12,18,17,15,14,13]
+// meantemp = getMenTemp(tempratures)
+// console.log("mean temp ", meantemp)
 
 // function getMenTemp(tempratures)
 // {
@@ -555,12 +555,91 @@ console.log("mean temp ", meantemp)
 //     return meantemp
 // }
 
-function getMenTemp(tempratures)
-{
-    sum = 0;
-    for(let i = 0; i<tempratures.length ; i++)
-    {
-        sum += tempratures[i]
-    }
-    return sum / tempratures.length
-}
+// function getMenTemp(tempratures)
+// {
+//     sum = 0;
+//     for(let i = 0; i<tempratures.length ; i++)
+//     {
+//         sum += tempratures[i]
+//     }
+//     return sum / tempratures.length
+// }
+
+
+//24/10/25
+// function showMessage(message)
+// {
+//     console.log(`message: ${message}`);
+// }
+// console.log(showMessage)
+
+// let sm = showMessage
+// console.log("sm :",sm)
+// sm("sm")
+// showMessage("show message")
+
+// function doNothing()
+// {
+//     return undefined
+// }
+// let a= doNothing();
+// let b= doNothing;
+// console.log(typeof a)
+// console.log(typeof b)
+
+// function add(a,b)
+// {
+//     return a+b
+// }
+// function multiply(a,b)
+// {
+//     return a*b
+// }
+// function opration(func, first, second)
+// {
+//     return func(first , second)
+// }
+// console.log(opration(add , 10, 20))
+// console.log(opration(multiply, 10,20))
+
+//named function expression
+// let myAdd = function(a,b)
+// {
+//     return a+b
+// }
+// console.log(myAdd(20,40))
+
+// function add(a,b)
+// {
+//     return a+b
+// }
+// function multiply(a,b)
+// {
+//     return a*b
+// }
+// function opration(func, first, second)
+// {
+//     return func(first , second)
+// }
+// console.log(opration(add , 10, 20))
+// console.log(opration(function(a,b)
+// {
+//     return a+b
+// }, 40,60))
+// console.log(opration(multiply, 10,20))
+// function getMenTemp(tempratures)
+// {
+//     if (!(tempratures instanceof Array))
+//     {
+//         return NaN;
+//     }
+//     let sum = 0;
+//     for(let i=0 ; i<tempratures.length; i++)
+//     {
+//         sum +=tempratures[i]
+//     }
+//     return sum/tempratures.length;
+// }
+// console.log(getMenTemp([10,20,30]))
+// console.log(getMenTemp("not an aary"))
+
