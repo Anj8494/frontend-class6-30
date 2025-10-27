@@ -643,3 +643,84 @@
 // console.log(getMenTemp([10,20,30]))
 // console.log(getMenTemp("not an aary"))
 
+// function add(a,b)
+// {
+//     if (typeof a !== "number" || typeof b !== "number")
+//     {
+//         return "invaild input: numbers expected"
+//     }
+//     return a+b
+// }
+// console.log(opration(add , "ten", 20))
+// console.log(opration(add , 10, "twenty"))
+// function multiply(a,b)
+// {
+//     return a*b
+// }
+// function opration(func, first, second)
+// {
+//     return func(first , second)
+// }
+// console.log(opration(add , 10, 20))
+// console.log(opration(function(a,b)
+// {
+//     return a+b
+// }, 40,60))
+
+//27/10/25
+//callbacks 
+// let inner = function()
+// {
+//     console.log('inner 1');
+// }
+// let outer = function(callback)
+// {
+//     console.log('outer 1')
+//     callback()
+//     console.log('outer 2')
+// }
+
+// console.log('test 1')
+// outer(inner)
+// console.log('test 2')
+
+// function calculate(a,b , operation)
+// {
+//     return operation(a,b);
+// }
+// function add(x,y)
+// {
+//     return x+y
+// }
+// function subtract(x,y)
+// {
+//     return x-y
+// }
+// console.log(calculate(5,3,add))
+// console.log(calculate(5,3,subtract))
+
+///asychoronous callbacks
+// console.log("start")
+// setTimeout(function()
+// {
+//     console.log("this run after 1 second");
+// },1000)
+// console.log("end")
+
+// let counter = 0 
+// console.log("strat")
+// let intervaild = setInterval(function()
+// {
+//     console.log("reapting:", ++counter)
+// },1000)
+// setTimeout(function()
+// {
+//     clearInterval(intervaild)
+//     console.log("sttoped")
+// },5500)
+// console.log("end")
+
+window .addEventListener("click", function()
+{
+    console.log("clicked")
+})
