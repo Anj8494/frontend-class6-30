@@ -720,7 +720,101 @@
 // },5500)
 // console.log("end")
 
-window .addEventListener("click", function()
-{
-    console.log("clicked")
-})
+// window .addEventListener("click", function()
+// {
+//     console.log("clicked")
+// })
+
+// 28/10/25
+//arrow function
+//filter method
+//even number
+// let array =[1,2,3,4,5,6,7,8,9,10]
+// let evenArray =array.filter(function(element)
+// {
+//     if(element %2 === 0)
+//     {
+//         return true
+//     }
+//     return false
+// })
+// console.log(array)
+// console.log(evenArray)
+
+//odd number
+// let array =[1,2,3,4,5,6,7,8,9,10]
+// let evenArray =array.filter(function(element)
+// {
+//     if(element %2 !== 0)
+//     {
+//         return true
+//     }
+//     return false
+// })
+// console.log(array)
+// console.log(evenArray)
+
+// let array = ["aditya","sandeep","dikasha","george", "chandresh","anjali"]
+// let newArray = array.filter(function(element)
+// {
+//     if(element === "aditya" || element === "dikasha" || element ==="chandresh")
+//     {
+//         return true
+//     }
+//     return false
+// })
+// console.log(array)
+// console.log(newArray)
+// let array = ["aditya","sandeep","dikasha","george", "chandresh","anjali"]
+// let newArray = array.filter(function(element)
+// {
+//     return element === "aditya" || element === "dikasha" || element ==="chandresh"
+// })
+// console.log(array)
+// console.log(newArray)
+
+// let array = ["aditya","sandeep","dikasha","george", "chandresh","anjali"]
+// let newArray = array.filter(function(element)
+// {
+//     if(element !== "aditya" && element !== "dikasha" && element !=="chandresh")
+//     {
+//         return true
+//     }
+//     return false
+// })
+// console.log(array)
+// console.log(newArray)
+
+// let array = ["aditya","sandeep","dikasha","george", "chandresh","anjali"]
+// let newArray = array.filter(function(element)
+// {
+//     return element !== "aditya" && element !== "dikasha" && element !=="chandresh"
+// })
+// console.log(array)
+// console.log(newArray)
+
+// let array = ["aditya","sandeep","dikasha","george", "chandresh","anjali"]
+// let newArray = array.map(function(element)
+// {
+//     if(element === "aditya")
+//         return "aditya gupta"
+//     return element+"----"
+// })
+// console.log(array)
+// console.log(newArray)
+
+// let array =[1,2,3,4,5,6,7,8,9,10]
+// let newArray = array.map(function(element)
+// {
+//         return element+3
+// })
+// console.log(array)
+// console.log(newArray)
+
+// let array = [10,20,30,40,50,60,70]
+// let newArray = array.map(function(element)
+// {
+//     return element+2
+// })
+// console.log(array)
+// console.log(newArray)
