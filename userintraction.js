@@ -818,3 +818,57 @@
 // })
 // console.log(array)
 // console.log(newArray)
+// function sum(a,b)
+// {
+//     return a+b
+// }
+// console.log(sum(5,3))
+// let sum =(a,b) => a+b
+// console.log(sum(4,6))
+// let sum =(a,b) => { return a+b }
+// console.log(sum(4,6))
+
+//29/10/25 
+//foreach
+// let names = ['Alice', 'eve', 'john']
+// function showName(element)
+// {
+//     console.log(element)
+// }
+// names.forEach(showName)
+
+// let names = ['Alice', 'eve', 'john']
+// let showName =(element) => console.log(element)
+// names.forEach(showName)
+
+// let names = ['Alice', 'eve', 'john']
+// let showName =(element) => console.log(element)
+// names.forEach(showName)
+// showName("nj")
+
+// let array = [1,2,3,4,5,6,7,8,9,10]
+// let myFunction = (element) => console.log(element+11)
+// array.forEach(myFunction)
+// console.log(array)
+
+// let square = x => x *x;
+// console.log(square(5))
+
+//recursion
+// function factorial(n)
+// {
+//     return n> 1 ? n * factorial(n-1) :1
+// }
+// console.log(factorial(5))
+
+function factorial(n)
+{
+    let result = 1
+    while(n>1)
+    {
+        result *=n;
+        n--
+    }
+    return result
+}
+console.log(factorial(5))
