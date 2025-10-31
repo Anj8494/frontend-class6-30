@@ -861,14 +861,48 @@
 // }
 // console.log(factorial(5))
 
-function factorial(n)
-{
-    let result = 1
-    while(n>1)
-    {
-        result *=n;
-        n--
-    }
-    return result
-}
-console.log(factorial(5))
+// function factorial(n)
+// {
+//     let result = 1
+//     while(n>1)
+//     {
+//         result *=n;
+//         n--
+//     }
+//     return result
+// }
+// console.log(factorial(5))
+
+//30/10/25
+//task 
+// for (let count = 1; count <=10; count++)
+// {
+//     setTimeout(function(){
+//         console.log(count)
+//     },2*1000)
+// }
+
+// let count = 1
+// let intervailId = setInterval(()=>
+// {
+//     console.log(count++)
+// },1000)
+// setTimeout(()=>{
+//     clearInterval(intervailId)
+// },10*1000+100)
+
+//31/10/25
+//error +try catch
+// try{
+//     console.log("starting of try")
+//     let a = 10 
+//     console.lg(a/0)
+//     console.log("ending of try")
+// }
+// catch(error)
+// {
+//     console.log("starting of catch")
+//     console.log("error: ",error)
+//     console.log("ending of catach")
+// 
+
