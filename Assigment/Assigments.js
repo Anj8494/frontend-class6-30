@@ -27,7 +27,17 @@
 // 	console.log(false _ false _ true); 
 // 	console.log(true _ false _ false && true);
 
-console.log(true || false); 
-console.log(false == false); 
-console.log(false || false || true); 
-console.log(true || false || false && true);
+// console.log(true || false); 
+// console.log(false == false); 
+// console.log(false || false || true); 
+// console.log(true || false || false && true);
+
+//Module 4 task
+//task 1
+let width = prompt("Enter the widthof box")
+let height = prompt("Enter the heigth of box")
+let length = prompt("Enter the length of the box")
+
+let volume = width*height*length
+alert("The volume of the box is: " + volume);
+console.log("volume of the box:", + volume)
