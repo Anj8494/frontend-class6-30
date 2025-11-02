@@ -189,16 +189,59 @@
 // alert("final price:" + (amount - discount))
 
 // 8. Write a program that greets the user based on the time of day.
-let hour = prompt("enter the time")
-if (hour < 12)
+// let hour = prompt("enter the time")
+// if (hour < 12)
+// {
+//     alert("Good morning")
+// }
+// else if(hour <18)
+// {
+//     alert("Good Afternoon")
+// }
+// else 
+// {
+//     alert("good evening")
+// }
+// module 4 loop task 1 
+// for (let i = 100; i >=0 ; i -=10)
+// {
+//     console.log(i)
+// }
+
+//task 2 
+// let start = Number(prompt("Enter the start number"));
+// let end = Number(prompt("Enter the end number"));
+// if (Number.isNaN(start) || Number.isNaN(end))
+// {
+//     alert("Please enter valid numbers.");
+// }
+// else if (start < end) 
+// {
+//     alert("Starting value must be greater than ending value.");
+// } 
+// else
+// {
+//     for (let i = start; i >= end; i -= 10) 
+//     {
+//         console.log(i);
+//         alert(i);
+//     }
+// }
+
+// task 3
+let array = [21,45,100,12,11,78,61,4,39,22]
+console.log(array)
+for(let num of array)
 {
-    alert("Good morning")
+    if(num % 2 === 0)
+    {
+        console.log("even numbers: ",num)
+    }
 }
-else if(hour <18)
+for(num of array)
 {
-    alert("Good Afternoon")
-}
-else 
-{
-    alert("good evening")
+    if(num >10 && num <60 )
+    {
+        console.log("numbers:", num)
+    }
 }
