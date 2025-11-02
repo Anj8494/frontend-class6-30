@@ -229,19 +229,42 @@
 // }
 
 // task 3
-let array = [21,45,100,12,11,78,61,4,39,22]
-console.log(array)
-for(let num of array)
-{
-    if(num % 2 === 0)
-    {
-        console.log("even numbers: ",num)
-    }
+// let array = [21,45,100,12,11,78,61,4,39,22]
+// console.log(array)
+// for(let num of array)
+// {
+//     if(num % 2 === 0)
+//     {
+//         console.log("even numbers: ",num)
+//     }
+// }
+// for(num of array)
+// {
+//     if(num >10 && num <60 )
+//     {
+//         console.log("numbers:", num)
+//     }
+// }
+
+//module 4 loop practice
+// 1. Create a for loop that prints the first 10 even numbers.
+// for (let i =1 ; i<= 10; i++ )
+// {
+//     console.log(i*2)
+// }
+
+//2. Find the sum of all quotients when dividing numbers 1 to 9 by 3
+// let sum = 0 
+// for (let i = 1; i<=9; i++)
+// {
+//     sum += i/3;
+// }
+// console.log("sum = ", sum)
+
+//3. Using do...while, print numbers from 1 to 5 with their quotient by 2
+let i = 1;
+do{
+    console.log(i , " /2 ", i/2)
+    i++
 }
-for(num of array)
-{
-    if(num >10 && num <60 )
-    {
-        console.log("numbers:", num)
-    }
-}
+while(i<=5)
