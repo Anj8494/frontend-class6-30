@@ -34,10 +34,52 @@
 
 //Module 4 task
 //task 1
-let width = prompt("Enter the widthof box")
-let height = prompt("Enter the heigth of box")
-let length = prompt("Enter the length of the box")
+// let width = prompt("Enter the widthof box")
+// let height = prompt("Enter the heigth of box")
+// let length = prompt("Enter the length of the box")
 
-let volume = width*height*length
-alert("The volume of the box is: " + volume);
-console.log("volume of the box:", + volume)
+// let volume = width*height*length
+// alert("The volume of the box is: " + volume);
+// console.log("volume of the box:", + volume)
+
+/// module 4 
+//calculator
+let num1 = Number(prompt("enter num 1"));
+let num2 = Number(prompt("enter num 2"));
+let operator = prompt("enter operator (+, -, *, /):");
+let result;
+if (!Number.isNaN(num1) && !Number.isNaN(num2)) {
+
+    switch (operator) {
+        case "+":
+            result = num1 + num2;
+            break;
+
+        case "-":
+            result = num1 - num2;
+            break;
+
+        case "*":
+            result = num1 * num2;
+            break;
+
+        case "/":
+            if (num2 === 0) {
+                alert("Error: Division by zero is not allowed");
+            } else {
+                result = num1 / num2;
+            }
+            break;
+
+        default:
+            alert("Invalid operation symbol");
+    }
+
+} else {
+    alert("Error: One or both values are not valid numbers");
+}
+if (result !== undefined) {
+    alert("The result is: " + result);
+    console.log("Result:", result);
+}
+
